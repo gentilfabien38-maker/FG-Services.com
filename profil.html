@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr"
+      data-title-fr="Profil & CV — Fabien Gentil | F-Gl"
+      data-title-en="Profile & CV — Fabien Gentil | F-Gl"
+      data-title-es="Perfil y CV — Fabien Gentil | F-Gl">
+<head>
+<meta charset="UTF-8">
+<script>
+(function(){
+  try {
+    var saved = localStorage.getItem('fgl-lang');
+    var lang = (saved === 'en' || saved === 'es' || saved === 'fr') ? saved : 'fr';
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Profil et CV de Fabien Gentil : formation, expériences professionnelles, compétences, langues et centres d'intérêt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <a href="index.html" class="logo">F<span>-Gl</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html"><span data-lang-block="fr">Accueil</span><span data-lang-block="en">Home</span><span data-lang-block="es">Inicio</span></a></li>
+        <li><a href="profil.html" class="active"><span data-lang-block="fr">Profil – CV</span><span data-lang-block="en">Profile – CV</span><span data-lang-block="es">Perfil – CV</span></a></li>
+        <li><a href="digital.html">F-Gl Digital</a></li>
+        <li><a href="estate.html">F-Gl Estate</a></li>
+        <li><a href="project-management.html">F-Gl Project Management</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="language-selector">
+            <button class="lang-btn" data-lang="fr">FR</button><span class="lang-separator">|</span>
+            <button class="lang-btn" data-lang="en">EN</button><span class="lang-separator">|</span>
+            <button class="lang-btn" data-lang="es">ES</button>
+        </li>
+    </ul>
+</nav>
+
+<header class="page-hero">
+    <div class="page-hero-inner reveal">
+        <div class="brand-badge">
+            <span data-lang-block="fr">Profil — CV</span><span data-lang-block="en">Profile — CV</span><span data-lang-block="es">Perfil — CV</span>
+        </div>
+        <h1>
+            <span data-lang-block="fr">Chef de projets,</span><span data-lang-block="en">Project manager,</span><span data-lang-block="es">Project manager,</span>
+            <strong><span data-lang-block="fr">passionné de terrain</span><span data-lang-block="en">grounded in the field</span><span data-lang-block="es">con vocación de terreno</span></strong>
+        </h1>
+        <p data-lang-block="fr">Diplômé d'un Master Programme Grande École spécialisé en gestion de projets et management international, j'ai optimisé des process et piloté la performance d'environnements exigeants dans les secteurs agricole, touristique et retail. Aujourd'hui, je mets ma curiosité, ma rigueur et mon sens du terrain au service de transformations concrètes.</p>
+        <p data-lang-block="en">A graduate of a Grande École Master's programme specialising in project management and international management, I have optimised processes and driven performance in demanding environments across the agricultural, tourism and retail sectors. Today, I put my curiosity, rigour and hands-on sense to work on concrete transformations.</p>
+        <p data-lang-block="es">Graduado de un Máster de una Grande École especializado en gestión de proyectos y management internacional, he optimizado procesos y dirigido el rendimiento de entornos exigentes en los sectores agrícola, turístico y retail. Hoy pongo mi curiosidad, mi rigor y mi sentido del terreno al servicio de transformaciones concretas.</p>
+        <div class="hero-buttons" style="margin-top:2rem;">
+            <a href="assets/docs/CV_Fabien_Gentil.pdf" class="btn-primary" download>
+                <span data-lang-block="fr">Télécharger le CV (PDF)</span><span data-lang-block="en">Download CV (PDF)</span><span data-lang-block="es">Descargar CV (PDF)</span>
+            </a>
+            <a href="https://www.linkedin.com/in/fabien-gentil-8391bb1a8/" target="_blank" rel="noopener" class="btn-secondary">LinkedIn</a>
+        </div>
+    </div>
+</header>
+
+<!-- Parcours académique -->
+<section>
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Formation</span><span data-lang-block="en">Education</span><span data-lang-block="es">Formación</span></div>
+            <h2 class="section-title">
+                <span data-lang-block="fr">Parcours</span><span data-lang-block="en">Academic</span><span data-lang-block="es">Trayectoria</span>
+                <strong><span data-lang-block="fr">académique</span><span data-lang-block="en">path</span><span data-lang-block="es">académica</span></strong>
+            </h2>
+            <p class="section-description">
+                <span data-lang-block="fr">Un parcours entre la France, la Colombie et l'Autriche.</span>
+                <span data-lang-block="en">A path across France, Colombia and Austria.</span>
+                <span data-lang-block="es">Una trayectoria entre Francia, Colombia y Austria.</span>
+            </p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <span class="period">2017 – 2020</span>
+                <h4><span data-lang-block="fr">Baccalauréat</span><span data-lang-block="en">High school diploma</span><span data-lang-block="es">Bachillerato</span></h4>
+                <div class="school">Lycée Saint-Marc</div>
+                <p><span data-lang-block="fr">Filière économique et sociale.</span><span data-lang-block="en">Economics and social sciences track.</span><span data-lang-block="es">Bachillerato en ciencias económicas y sociales.</span></p>
+                <div class="loc">Marseille, France</div>
+            </div>
+            <div class="timeline-item reveal">
+                <span class="period">2020 – 2022</span>
+                <h4><span data-lang-block="fr">Classes préparatoires</span><span data-lang-block="en">Preparatory classes (CPGE)</span><span data-lang-block="es">Clases preparatorias (CPGE)</span></h4>
+                <div class="school">Lycée Philippine-Duchesne</div>
+                <p><span data-lang-block="fr">Deux années intensives de préparation aux concours des grandes écoles de management.</span><span data-lang-block="en">Two intensive years preparing for entrance exams to top management schools.</span><span data-lang-block="es">Dos años intensivos de preparación para los exámenes de acceso a las grandes escuelas de management.</span></p>
+                <div class="loc">Grenoble, France</div>
+            </div>
+            <div class="timeline-item reveal">
+                <span class="period">2022 – 2026</span>
+                <h4><span data-lang-block="fr">Master Programme Grande École</span><span data-lang-block="en">Master's — Grande École Programme</span><span data-lang-block="es">Máster — Programa Grande École</span></h4>
+                <div class="school">KEDGE Business School</div>
+                <p><span data-lang-block="fr">Gestion de projet, marketing, finance, stratégie, systèmes d'information, IA — enseignements en anglais, allemand et espagnol.</span><span data-lang-block="en">Project management, marketing, finance, strategy, information systems, AI — taught in English, German and Spanish.</span><span data-lang-block="es">Gestión de proyectos, marketing, finanzas, estrategia, sistemas de información, IA — cursos impartidos en inglés, alemán y español.</span></p>
+                <div class="loc"><span data-lang-block="fr">Marseille &amp; Bordeaux, France</span><span data-lang-block="en">Marseille &amp; Bordeaux, France</span><span data-lang-block="es">Marsella y Burdeos, Francia</span></div>
+            </div>
+            <div class="timeline-item reveal">
+                <span class="period">2024</span>
+                <h4><span data-lang-block="fr">Échange académique</span><span data-lang-block="en">Academic exchange</span><span data-lang-block="es">Intercambio académico</span></h4>
+                <div class="school">Universidad Santo Tomás</div>
+                <p><span data-lang-block="fr">Semestre d'échange en Colombie, en parallèle de la mission chez Fruexcol.</span><span data-lang-block="en">Exchange semester in Colombia, alongside the assignment at Fruexcol.</span><span data-lang-block="es">Semestre de intercambio en Colombia, en paralelo a la misión en Fruexcol.</span></p>
+                <div class="loc"><span data-lang-block="fr">Bucaramanga, Colombie</span><span data-lang-block="en">Bucaramanga, Colombia</span><span data-lang-block="es">Bucaramanga, Colombia</span></div>
+            </div>
+            <div class="timeline-item reveal">
+                <span class="period">2025</span>
+                <h4><span data-lang-block="fr">Semestre Erasmus</span><span data-lang-block="en">Erasmus semester</span><span data-lang-block="es">Semestre Erasmus</span></h4>
+                <div class="school">Karl-Franzens-Universität</div>
+                <p><span data-lang-block="fr">Business analytics, production et logistique, analyse des investissements, études de marché — en complément de l'allemand.</span><span data-lang-block="en">Business analytics, production and logistics, investment analysis, market research — alongside German language studies.</span><span data-lang-block="es">Business analytics, producción y logística, análisis de inversiones, estudios de mercado — junto con el estudio del alemán.</span></p>
+                <div class="loc"><span data-lang-block="fr">Graz, Autriche</span><span data-lang-block="en">Graz, Austria</span><span data-lang-block="es">Graz, Austria</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Expériences professionnelles -->
+<section class="bg-light">
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Expérience</span><span data-lang-block="en">Experience</span><span data-lang-block="es">Experiencia</span></div>
+            <h2 class="section-title">
+                <span data-lang-block="fr">Expériences</span><span data-lang-block="en">Professional</span><span data-lang-block="es">Experiencia</span>
+                <strong><span data-lang-block="fr">professionnelles</span><span data-lang-block="en">experience</span><span data-lang-block="es">profesional</span></strong>
+            </h2>
+            <p class="section-description">
+                <span data-lang-block="fr">Des rôles à l'intersection de la stratégie, du développement commercial et de la gestion de projets.</span>
+                <span data-lang-block="en">Roles at the intersection of strategy, business development and project management.</span>
+                <span data-lang-block="es">Funciones en la intersección entre estrategia, desarrollo comercial y gestión de proyectos.</span>
+            </p>
+        </div>
+
+        <!-- Exp 1 : Groupe Courir -->
+        <div class="exp-card reveal">
+            <div class="exp-head">
+                <h3><span data-lang-block="fr">Chef de projets Stratégique et IT</span><span data-lang-block="en">Strategic &amp; IT Project Manager</span><span data-lang-block="es">Project Manager Estratégico y de TI</span></h3>
+                <span class="badge"><span data-lang-block="fr">Alternance</span><span data-lang-block="en">Apprenticeship</span><span data-lang-block="es">Contrato en alternancia</span></span>
+            </div>
+            <div class="exp-meta"><span data-lang-block="fr">Groupe Courir · Grenoble, France</span><span data-lang-block="en">Groupe Courir · Grenoble, France</span><span data-lang-block="es">Groupe Courir · Grenoble, Francia</span></div>
+            <div class="exp-sub">
+                <span data-lang-block="fr">Sept. 2025 – Sept. 2026 (13 mois) — Enseigne européenne de sneakers, 300+ magasins dans 7 pays.</span>
+                <span data-lang-block="en">Sept 2025 – Sept 2026 (13 months) — European sneaker retailer, 300+ stores across 7 countries.</span>
+                <span data-lang-block="es">Sept. 2025 – sept. 2026 (13 meses) — Cadena europea de sneakers, más de 300 tiendas en 7 países.</span>
+            </div>
+            <div class="exp-body">
+                <ul data-lang-block="fr">
+                    <li>Cadrage de la gouvernance projet : scoping, matrices de risques, tableaux de suivi</li>
+                    <li>Coordination des équipes transverses et des prestataires externes</li>
+                    <li>Animation des rituels hebdomadaires et comités de pilotage</li>
+                    <li>Gestion des roadmaps et des backlogs produits de bout en bout</li>
+                    <li>Construction du reporting KPI et suivi budgétaire</li>
+                    <li>Garantie de la cohérence technique et fonctionnelle entre projets</li>
+                    <li>Suivi et vérification des projets après livraison</li>
+                </ul>
+                <ul data-lang-block="en">
+                    <li>Framed project governance: scoping, risk matrices and tracking dashboards</li>
+                    <li>Coordinated cross-functional teams and external providers</li>
+                    <li>Ran weekly rituals and steering committees</li>
+                    <li>Managed product roadmaps and backlogs end to end</li>
+                    <li>Built KPI reporting and budget tracking</li>
+                    <li>Ensured technical and functional consistency across projects</li>
+                    <li>Followed up and checked projects after delivery</li>
+                </ul>
+                <ul data-lang-block="es">
+                    <li>Definición de la gobernanza del proyecto: alcance, matrices de riesgo y paneles de seguimiento</li>
+                    <li>Coordinación de equipos transversales y proveedores externos</li>
+                    <li>Animación de rituales semanales y comités de dirección</li>
+                    <li>Gestión de roadmaps y backlogs de producto de principio a fin</li>
+                    <li>Elaboración de reporting de KPI y seguimiento presupuestario</li>
+                    <li>Garantía de la coherencia técnica y funcional entre proyectos</li>
+                    <li>Seguimiento y verificación de los proyectos tras su entrega</li>
+                </ul>
+                <div class="exp-result">
+                    <div class="num">9+</div>
+                    <p>
+                        <span data-lang-block="fr">Projets livrés dans les temps et le budget : ouvertures de magasins, déploiements logiciels, une expansion internationale.</span>
+                        <span data-lang-block="en">Projects delivered on time and on budget: store openings, software rollouts, one international expansion.</span>
+                        <span data-lang-block="es">Proyectos entregados a tiempo y dentro del presupuesto: aperturas de tiendas, despliegues de software, una expansión internacional.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="tag-list">
+                <span class="tag"><span data-lang-block="fr">Gestion de projet</span><span data-lang-block="en">Project Management</span><span data-lang-block="es">Gestión de proyectos</span></span>
+                <span class="tag">Agile &amp; Scrum</span>
+                <span class="tag"><span data-lang-block="fr">Gestion des risques</span><span data-lang-block="en">Risk Management</span><span data-lang-block="es">Gestión de riesgos</span></span>
+                <span class="tag"><span data-lang-block="fr">Parties prenantes</span><span data-lang-block="en">Stakeholder Management</span><span data-lang-block="es">Gestión de stakeholders</span></span>
+                <span class="tag"><span data-lang-block="fr">Gestion budgétaire</span><span data-lang-block="en">Budget Management</span><span data-lang-block="es">Gestión presupuestaria</span></span>
+                <span class="tag"><span data-lang-block="fr">Conduite du changement</span><span data-lang-block="en">Change Management</span><span data-lang-block="es">Gestión del cambio</span></span>
+            </div>
+        </div>
+
+        <!-- Exp 2 : Stay.Swiss / Octopus 1987 -->
+        <div class="exp-card reveal">
+            <div class="exp-head">
+                <h3><span data-lang-block="fr">Assistant de Direction</span><span data-lang-block="en">Assistant Manager &amp; Business Developer</span><span data-lang-block="es">Asistente de Dirección</span></h3>
+                <span class="badge"><span data-lang-block="fr">Stage</span><span data-lang-block="en">Internship</span><span data-lang-block="es">Prácticas</span></span>
+            </div>
+            <div class="exp-meta"><span data-lang-block="fr">Stay.Swiss · Octopus 1987 · Jura, Suisse</span><span data-lang-block="en">Stay.Swiss · Octopus 1987 · Jura, Switzerland</span><span data-lang-block="es">Stay.Swiss · Octopus 1987 · Jura, Suiza</span></div>
+            <div class="exp-sub">
+                <span data-lang-block="fr">Août 2024 – Janv. 2025 (6 mois) — Bras droit de deux entrepreneurs dans le tourisme, l'hôtellerie et l'immobilier.</span>
+                <span data-lang-block="en">Aug 2024 – Jan 2025 (6 months) — Right hand to two entrepreneurs across tourism, hospitality and real estate.</span>
+                <span data-lang-block="es">Ago. 2024 – ene. 2025 (6 meses) — Mano derecha de dos emprendedores en turismo, hostelería e inmobiliario.</span>
+            </div>
+            <div class="exp-body">
+                <ul data-lang-block="fr">
+                    <li>Analyse de marché et développement commercial de nouvelles offres</li>
+                    <li>Gestion de portefeuilles clients, dont une clientèle hispanophone</li>
+                    <li>Création de nouveaux produits et relance d'un projet touristique local</li>
+                    <li>Analyse financière et évaluation de performance</li>
+                    <li>Production de contenus visuels (drone, visites virtuelles) pour les biens immobiliers</li>
+                    <li>Développement de partenariats locaux et de contenus social media</li>
+                    <li>Supervision des équipes d'housekeeping et des services de conciergerie</li>
+                </ul>
+                <ul data-lang-block="en">
+                    <li>Market analysis and business development for new offerings</li>
+                    <li>Managed client portfolios, including Spanish-speaking clients</li>
+                    <li>Created new products and relaunched a local tourism project</li>
+                    <li>Ran financial analysis and performance evaluation</li>
+                    <li>Produced visual content (drone, virtual tours) for real estate listings</li>
+                    <li>Built local partnerships and social media content</li>
+                    <li>Supervised housekeeping teams and concierge services</li>
+                </ul>
+                <ul data-lang-block="es">
+                    <li>Análisis de mercado y desarrollo comercial de nuevas ofertas</li>
+                    <li>Gestión de carteras de clientes, incluida una clientela hispanohablante</li>
+                    <li>Creación de nuevos productos y relanzamiento de un proyecto turístico local</li>
+                    <li>Análisis financiero y evaluación del rendimiento</li>
+                    <li>Producción de contenido visual (dron, tours virtuales) para inmuebles</li>
+                    <li>Desarrollo de alianzas locales y contenido para redes sociales</li>
+                    <li>Supervisión de los equipos de housekeeping y los servicios de conserjería</li>
+                </ul>
+                <div class="exp-result">
+                    <div class="num">3</div>
+                    <p>
+                        <span data-lang-block="fr">Structures accompagnées, avec des améliorations internes livrées et une hausse du chiffre d'affaires.</span>
+                        <span data-lang-block="en">Ventures supported, with internal improvements delivered and revenue growth.</span>
+                        <span data-lang-block="es">Estructuras acompañadas, con mejoras internas entregadas y un aumento de la facturación.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="tag-list">
+                <span class="tag"><span data-lang-block="fr">Développement commercial</span><span data-lang-block="en">Business Development</span><span data-lang-block="es">Desarrollo comercial</span></span>
+                <span class="tag"><span data-lang-block="fr">Analyse financière</span><span data-lang-block="en">Financial Analysis</span><span data-lang-block="es">Análisis financiero</span></span>
+                <span class="tag"><span data-lang-block="fr">Marketing digital</span><span data-lang-block="en">Digital Marketing</span><span data-lang-block="es">Marketing digital</span></span>
+                <span class="tag"><span data-lang-block="fr">Gestion opérationnelle</span><span data-lang-block="en">Operations Management</span><span data-lang-block="es">Gestión operativa</span></span>
+            </div>
+        </div>
+
+        <!-- Exp 3 : Fruexcol -->
+        <div class="exp-card reveal">
+            <div class="exp-head">
+                <h3><span data-lang-block="fr">Chef de projet développement de marché</span><span data-lang-block="en">Market Expansion Consultant</span><span data-lang-block="es">Consultor de expansión de mercado</span></h3>
+                <span class="badge"><span data-lang-block="fr">Stage</span><span data-lang-block="en">Internship</span><span data-lang-block="es">Prácticas</span></span>
+            </div>
+            <div class="exp-meta"><span data-lang-block="fr">Fruexcol · Bucaramanga, Colombie</span><span data-lang-block="en">Fruexcol · Bucaramanga, Colombia</span><span data-lang-block="es">Fruexcol · Bucaramanga, Colombia</span></div>
+            <div class="exp-sub">
+                <span data-lang-block="fr">Fév. – Juil. 2024 (6 mois) — Conseil stratégique pour un exportateur de fruits exotiques ciblant les marchés européens.</span>
+                <span data-lang-block="en">Feb – Jul 2024 (6 months) — Strategic consulting for an exotic-fruit exporter targeting European markets.</span>
+                <span data-lang-block="es">Feb. – jul. 2024 (6 meses) — Consultoría estratégica para un exportador de frutas exóticas dirigido a los mercados europeos.</span>
+            </div>
+            <div class="exp-body">
+                <ul data-lang-block="fr">
+                    <li>Analyses de marché sur les cibles européennes</li>
+                    <li>Construction d'une matrice de présélection et de scoring des marchés</li>
+                    <li>Évaluation des conditions d'accès au marché et de la réglementation</li>
+                    <li>Analyse de la distribution physique et de la logistique</li>
+                    <li>Rédaction d'une proposition stratégique d'intégration au marché</li>
+                    <li>Modélisation de scénarios d'entrée et rapports d'aide à la décision</li>
+                </ul>
+                <ul data-lang-block="en">
+                    <li>Ran market analyses for European target markets</li>
+                    <li>Built a market preselection and scoring matrix</li>
+                    <li>Assessed market-access conditions and regulations</li>
+                    <li>Analysed physical distribution and logistics</li>
+                    <li>Drafted a strategic market-entry proposal</li>
+                    <li>Modelled entry scenarios and decision-ready reports</li>
+                </ul>
+                <ul data-lang-block="es">
+                    <li>Análisis de mercado para los mercados objetivo europeos</li>
+                    <li>Elaboración de una matriz de preselección y scoring de mercados</li>
+                    <li>Evaluación de las condiciones de acceso al mercado y la normativa</li>
+                    <li>Análisis de la distribución física y la logística</li>
+                    <li>Redacción de una propuesta estratégica de integración de mercado</li>
+                    <li>Modelización de escenarios de entrada e informes para la toma de decisiones</li>
+                </ul>
+                <div class="exp-result">
+                    <div class="num">3</div>
+                    <p>
+                        <span data-lang-block="fr">Marchés européens ouverts, appuyés par une stratégie d'entrée structurée.</span>
+                        <span data-lang-block="en">European markets opened, backed by a structured market-entry strategy.</span>
+                        <span data-lang-block="es">Mercados europeos abiertos, respaldados por una estrategia de entrada estructurada.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="tag-list">
+                <span class="tag"><span data-lang-block="fr">Analyse de marché</span><span data-lang-block="en">Market Analysis</span><span data-lang-block="es">Análisis de mercado</span></span>
+                <span class="tag"><span data-lang-block="fr">Benchmark concurrentiel</span><span data-lang-block="en">Competitive Benchmarking</span><span data-lang-block="es">Benchmarking competitivo</span></span>
+                <span class="tag"><span data-lang-block="fr">Stratégie go-to-market</span><span data-lang-block="en">Go-to-Market Strategy</span><span data-lang-block="es">Estrategia go-to-market</span></span>
+                <span class="tag"><span data-lang-block="fr">Modélisation financière</span><span data-lang-block="en">Financial Modelling</span><span data-lang-block="es">Modelización financiera</span></span>
+            </div>
+        </div>
+
+        <!-- Exp 4 : Community manager bénévole -->
+        <div class="exp-card reveal">
+            <div class="exp-head">
+                <h3>Community Manager</h3>
+                <span class="badge"><span data-lang-block="fr">Bénévolat</span><span data-lang-block="en">Volunteer</span><span data-lang-block="es">Voluntariado</span></span>
+            </div>
+            <div class="exp-meta"><span data-lang-block="fr">Vincent Gay – Maraîcher Bio · Isère, France</span><span data-lang-block="en">Vincent Gay – Organic Market Garden · Isère, France</span><span data-lang-block="es">Vincent Gay – Huerta Ecológica · Isère, Francia</span></div>
+            <div class="exp-sub">
+                <span data-lang-block="fr">Depuis 2019 — Gestion bénévole de la communication digitale d'une exploitation maraîchère bio.</span>
+                <span data-lang-block="en">Since 2019 — Volunteer management of the digital communication for an organic market garden.</span>
+                <span data-lang-block="es">Desde 2019 — Gestión voluntaria de la comunicación digital de una explotación hortícola ecológica.</span>
+            </div>
+            <div class="exp-body" style="grid-template-columns: 1fr;">
+                <ul data-lang-block="fr">
+                    <li>Animation des réseaux sociaux et création de contenu</li>
+                    <li>Mise en valeur des produits et des circuits courts</li>
+                    <li>Renforcement de la visibilité locale de l'exploitation</li>
+                </ul>
+                <ul data-lang-block="en">
+                    <li>Managed social media and created content</li>
+                    <li>Showcased products and short supply chains</li>
+                    <li>Strengthened the farm's local visibility</li>
+                </ul>
+                <ul data-lang-block="es">
+                    <li>Gestión de redes sociales y creación de contenido</li>
+                    <li>Puesta en valor de los productos y los circuitos cortos</li>
+                    <li>Refuerzo de la visibilidad local de la explotación</li>
+                </ul>
+            </div>
+            <div class="tag-list">
+                <span class="tag"><span data-lang-block="fr">Réseaux sociaux</span><span data-lang-block="en">Social Media</span><span data-lang-block="es">Redes sociales</span></span>
+                <span class="tag"><span data-lang-block="fr">Création de contenu</span><span data-lang-block="en">Content Creation</span><span data-lang-block="es">Creación de contenido</span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Engagement associatif -->
+<section>
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Engagement</span><span data-lang-block="en">Involvement</span><span data-lang-block="es">Compromiso</span></div>
+            <h2 class="section-title">
+                <span data-lang-block="fr">Engagement associatif</span><span data-lang-block="en">Community</span><span data-lang-block="es">Compromiso</span>
+                <strong><span data-lang-block="fr">et bénévolat</span><span data-lang-block="en">involvement</span><span data-lang-block="es">asociativo</span></strong>
+            </h2>
+        </div>
+        <div class="compact-grid">
+            <div class="compact-item reveal">
+                <div>
+                    <h5><span data-lang-block="fr">Président — Association Biolozic Festival</span><span data-lang-block="en">President — Biolozic Festival Association</span><span data-lang-block="es">Presidente — Asociación Biolozic Festival</span></h5>
+                    <span><span data-lang-block="fr">Festival organisé sur un terrain vague, 500+ personnes</span><span data-lang-block="en">Festival organised on a vacant lot, 500+ attendees</span><span data-lang-block="es">Festival organizado en un solar, más de 500 personas</span></span>
+                </div>
+                <span class="year">2023</span>
+            </div>
+            <div class="compact-item reveal">
+                <div>
+                    <h5><span data-lang-block="fr">Bénévole festivals — Delta, Utopia, Fiesta des Suds</span><span data-lang-block="en">Festival volunteer — Delta, Utopia, Fiesta des Suds</span><span data-lang-block="es">Voluntario en festivales — Delta, Utopia, Fiesta des Suds</span></h5>
+                    <span><span data-lang-block="fr">Bar, logistique et rôles polyvalents sur site</span><span data-lang-block="en">Bar, logistics and various on-site roles</span><span data-lang-block="es">Barra, logística y funciones diversas in situ</span></span>
+                </div>
+                <span class="year">2023</span>
+            </div>
+            <div class="compact-item reveal">
+                <div>
+                    <h5><span data-lang-block="fr">Directeur de commission — Kaval'Kedge</span><span data-lang-block="en">Committee Director — Kaval'Kedge</span><span data-lang-block="es">Director de comisión — Kaval'Kedge</span></h5>
+                    <span><span data-lang-block="fr">3 compétitions équestres et autres événements</span><span data-lang-block="en">3 equestrian competitions and other events</span><span data-lang-block="es">3 competiciones ecuestres y otros eventos</span></span>
+                </div>
+                <span class="year">2022 – 2023</span>
+            </div>
+            <div class="compact-item reveal">
+                <div>
+                    <h5><span data-lang-block="fr">Maraude — Croix-Rouge française</span><span data-lang-block="en">Street outreach — French Red Cross</span><span data-lang-block="es">Ayuda en calle — Cruz Roja Francesa</span></h5>
+                    <span><span data-lang-block="fr">Aide aux personnes en situation de rue à Marseille</span><span data-lang-block="en">Supporting people experiencing homelessness in Marseille</span><span data-lang-block="es">Ayuda a personas sin hogar en Marsella</span></span>
+                </div>
+                <span class="year">2022 – 2023</span>
+            </div>
+            <div class="compact-item reveal">
+                <div>
+                    <h5><span data-lang-block="fr">Bénévole équestre international — GrandPrix, Hubside, Jumping Bourg</span><span data-lang-block="en">International equestrian volunteer — GrandPrix, Hubside, Jumping Bourg</span><span data-lang-block="es">Voluntario ecuestre internacional — GrandPrix, Hubside, Jumping Bourg</span></h5>
+                    <span><span data-lang-block="fr">Gestion de piste, plus de 15 événements</span><span data-lang-block="en">Arena management, 15+ events</span><span data-lang-block="es">Gestión de pista, más de 15 eventos</span></span>
+                </div>
+                <span class="year">2020 – 2023</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Jobs saisonniers -->
+<section class="bg-light">
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Jobs</span><span data-lang-block="en">Jobs</span><span data-lang-block="es">Trabajos</span></div>
+            <h2 class="section-title">
+                <span data-lang-block="fr">Missions</span><span data-lang-block="en">Seasonal</span><span data-lang-block="es">Trabajos</span>
+                <strong><span data-lang-block="fr">saisonnières</span><span data-lang-block="en">roles</span><span data-lang-block="es">temporales</span></strong>
+            </h2>
+        </div>
+        <div class="compact-grid">
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Stagiaire secteur public</span><span data-lang-block="en">Public-sector intern</span><span data-lang-block="es">Prácticas en el sector público</span></h5><span>OFII</span></div><span class="year">2023</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Vendeur &amp; gestion de stock</span><span data-lang-block="en">Seller &amp; stock manager</span><span data-lang-block="es">Vendedor y gestión de stock</span></h5><span>Veredus · Lyon &amp; Paris</span></div><span class="year"><span data-lang-block="fr">Depuis 2021</span><span data-lang-block="en">Since 2021</span><span data-lang-block="es">Desde 2021</span></span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Vente en porte-à-porte</span><span data-lang-block="en">Door-to-door salesman</span><span data-lang-block="es">Ventas puerta a puerta</span></h5><span>Ernst &amp; Young · Marseille</span></div><span class="year">2022</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Employé d'hôtellerie</span><span data-lang-block="en">Hotel employee</span><span data-lang-block="es">Empleado de hostelería</span></h5><span>Lagrange Vacances · Valloire</span></div><span class="year">2022</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Vendangeur</span><span data-lang-block="en">Grape harvester</span><span data-lang-block="es">Vendimiador</span></h5><span><span data-lang-block="fr">Plusieurs domaines</span><span data-lang-block="en">Various vineyards</span><span data-lang-block="es">Varias fincas</span></span></div><span class="year"><span data-lang-block="fr">4 étés</span><span data-lang-block="en">4 summers</span><span data-lang-block="es">4 veranos</span></span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Web designer freelance</span><span data-lang-block="en">Freelance web designer</span><span data-lang-block="es">Diseñador web freelance</span></h5><span><span data-lang-block="fr">2 projets clients</span><span data-lang-block="en">2 client projects</span><span data-lang-block="es">2 proyectos de cliente</span></span></div><span class="year">2023</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Ouvrier agricole &amp; vendeur</span><span data-lang-block="en">Farm worker &amp; seller</span><span data-lang-block="es">Trabajador agrícola y vendedor</span></h5><span>Vincent Gay Bio</span></div><span class="year">2021</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Ambassadeur étudiant</span><span data-lang-block="en">Student ambassador</span><span data-lang-block="es">Embajador estudiantil</span></h5><span>KEDGE BS</span></div><span class="year">2023</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Examinateur d'entretiens</span><span data-lang-block="en">Interview examiner</span><span data-lang-block="es">Examinador de entrevistas</span></h5><span>Itec Boisfleury</span></div><span class="year">2023</span></div>
+            <div class="compact-item reveal"><div><h5><span data-lang-block="fr">Stagiaire commerce international</span><span data-lang-block="en">Trade intern</span><span data-lang-block="es">Prácticas en comercio internacional</span></h5><span>ACTE International</span></div><span class="year"><span data-lang-block="fr">1 semaine</span><span data-lang-block="en">1 week</span><span data-lang-block="es">1 semana</span></span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Soft skills -->
+<section>
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Savoir-être</span><span data-lang-block="en">Soft skills</span><span data-lang-block="es">Habilidades blandas</span></div>
+            <h2 class="section-title"><span data-lang-block="fr">Qualités</span><span data-lang-block="en">Human</span><span data-lang-block="es">Cualidades</span> <strong><span data-lang-block="fr">humaines</span><span data-lang-block="en">qualities</span><span data-lang-block="es">humanas</span></strong></h2>
+        </div>
+        <div class="skills-cloud reveal">
+            <span class="tag">Leadership</span>
+            <span class="tag"><span data-lang-block="fr">Adaptabilité</span><span data-lang-block="en">Adaptability</span><span data-lang-block="es">Adaptabilidad</span></span>
+            <span class="tag"><span data-lang-block="fr">Travail d'équipe</span><span data-lang-block="en">Teamwork</span><span data-lang-block="es">Trabajo en equipo</span></span>
+            <span class="tag"><span data-lang-block="fr">Motivation</span><span data-lang-block="en">Motivation</span><span data-lang-block="es">Motivación</span></span>
+            <span class="tag">Communication</span>
+            <span class="tag"><span data-lang-block="fr">Résolution de problèmes</span><span data-lang-block="en">Problem-solving</span><span data-lang-block="es">Resolución de problemas</span></span>
+            <span class="tag"><span data-lang-block="fr">Rigueur</span><span data-lang-block="en">Rigour</span><span data-lang-block="es">Rigor</span></span>
+            <span class="tag"><span data-lang-block="fr">Autonomie</span><span data-lang-block="en">Autonomy</span><span data-lang-block="es">Autonomía</span></span>
+            <span class="tag"><span data-lang-block="fr">Résilience</span><span data-lang-block="en">Resilience</span><span data-lang-block="es">Resiliencia</span></span>
+            <span class="tag"><span data-lang-block="fr">Initiative</span><span data-lang-block="en">Initiative</span><span data-lang-block="es">Iniciativa</span></span>
+            <span class="tag"><span data-lang-block="fr">Organisation</span><span data-lang-block="en">Organization</span><span data-lang-block="es">Organización</span></span>
+            <span class="tag"><span data-lang-block="fr">Empathie</span><span data-lang-block="en">Empathy</span><span data-lang-block="es">Empatía</span></span>
+            <span class="tag"><span data-lang-block="fr">Créativité</span><span data-lang-block="en">Creativity</span><span data-lang-block="es">Creatividad</span></span>
+            <span class="tag"><span data-lang-block="fr">Ouverture d'esprit</span><span data-lang-block="en">Open-mindedness</span><span data-lang-block="es">Mentalidad abierta</span></span>
+            <span class="tag"><span data-lang-block="fr">Gestion des conflits</span><span data-lang-block="en">Conflict resolution</span><span data-lang-block="es">Resolución de conflictos</span></span>
+            <span class="tag"><span data-lang-block="fr">Gestion du temps</span><span data-lang-block="en">Time management</span><span data-lang-block="es">Gestión del tiempo</span></span>
+            <span class="tag"><span data-lang-block="fr">Gestion du stress</span><span data-lang-block="en">Stress management</span><span data-lang-block="es">Gestión del estrés</span></span>
+            <span class="tag"><span data-lang-block="fr">Flexibilité</span><span data-lang-block="en">Flexibility</span><span data-lang-block="es">Flexibilidad</span></span>
+            <span class="tag"><span data-lang-block="fr">Curiosité</span><span data-lang-block="en">Curiosity</span><span data-lang-block="es">Curiosidad</span></span>
+        </div>
+    </div>
+</section>
+
+<!-- Langues -->
+<section class="bg-light">
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Langues</span><span data-lang-block="en">Languages</span><span data-lang-block="es">Idiomas</span></div>
+            <h2 class="section-title"><span data-lang-block="fr">Compétences</span><span data-lang-block="en">Language</span><span data-lang-block="es">Competencias</span> <strong><span data-lang-block="fr">linguistiques</span><span data-lang-block="en">skills</span><span data-lang-block="es">lingüísticas</span></strong></h2>
+        </div>
+        <div class="lang-grid reveal">
+            <div class="lang-row">
+                <span class="name"><span data-lang-block="fr">Français</span><span data-lang-block="en">French</span><span data-lang-block="es">Francés</span></span>
+                <span class="level"><span data-lang-block="fr">Langue maternelle</span><span data-lang-block="en">Native speaker</span><span data-lang-block="es">Lengua materna</span></span>
+                <span class="lang-dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span></span>
+            </div>
+            <div class="lang-row">
+                <span class="name"><span data-lang-block="fr">Anglais</span><span data-lang-block="en">English</span><span data-lang-block="es">Inglés</span></span>
+                <span class="level"><span data-lang-block="fr">Avancé</span><span data-lang-block="en">Advanced</span><span data-lang-block="es">Avanzado</span> · B2/C1</span>
+                <span class="lang-dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></span>
+            </div>
+            <div class="lang-row">
+                <span class="name"><span data-lang-block="fr">Espagnol</span><span data-lang-block="en">Spanish</span><span data-lang-block="es">Español</span></span>
+                <span class="level"><span data-lang-block="fr">Avancé</span><span data-lang-block="en">Advanced</span><span data-lang-block="es">Avanzado</span> · B2/C1</span>
+                <span class="lang-dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></span>
+            </div>
+            <div class="lang-row">
+                <span class="name"><span data-lang-block="fr">Allemand</span><span data-lang-block="en">German</span><span data-lang-block="es">Alemán</span></span>
+                <span class="level"><span data-lang-block="fr">Élémentaire</span><span data-lang-block="en">Elementary</span><span data-lang-block="es">Elemental</span> · A2</span>
+                <span class="lang-dots"><span class="filled"></span><span class="filled"></span><span></span><span></span><span></span></span>
+            </div>
+            <div class="lang-row">
+                <span class="name"><span data-lang-block="fr">Chinois</span><span data-lang-block="en">Chinese</span><span data-lang-block="es">Chino</span></span>
+                <span class="level"><span data-lang-block="fr">Débutant</span><span data-lang-block="en">Beginner</span><span data-lang-block="es">Principiante</span> · A1</span>
+                <span class="lang-dots"><span class="filled"></span><span></span><span></span><span></span><span></span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications -->
+<section>
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Formation continue</span><span data-lang-block="en">Professional development</span><span data-lang-block="es">Formación continua</span></div>
+            <h2 class="section-title"><span data-lang-block="fr">Certifications</span><span data-lang-block="en">Certifications</span><span data-lang-block="es">Certificaciones</span> <strong><span data-lang-block="fr">&amp; formations</span><span data-lang-block="en">&amp; trainings</span><span data-lang-block="es">y formaciones</span></strong></h2>
+        </div>
+        <div class="cert-grid reveal">
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5>TOSA (759)</h5><span><span data-lang-block="fr">Bureautique</span><span data-lang-block="en">Office proficiency</span><span data-lang-block="es">Ofimática</span></span></div>
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5>TOEIC (865)</h5><span><span data-lang-block="fr">Anglais professionnel</span><span data-lang-block="en">English proficiency</span><span data-lang-block="es">Inglés profesional</span></span></div>
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5>Sulitest</h5><span><span data-lang-block="fr">Culture du développement durable</span><span data-lang-block="en">Sustainability literacy</span><span data-lang-block="es">Cultura de sostenibilidad</span></span></div>
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5><span data-lang-block="fr">Permis de conduire</span><span data-lang-block="en">Driving licence</span><span data-lang-block="es">Carné de conducir</span></h5><span><span data-lang-block="fr">Catégorie B</span><span data-lang-block="en">Category B</span><span data-lang-block="es">Categoría B</span></span></div>
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5>Introduction to Data Science</h5><span><span data-lang-block="fr">SQL, Tableau, IA</span><span data-lang-block="en">SQL, Tableau, AI</span><span data-lang-block="es">SQL, Tableau, IA</span></span></div>
+            <div class="cert-card"><span class="cert-kind">Certification</span><h5><span data-lang-block="fr">Culture générale RH</span><span data-lang-block="en">HR general knowledge</span><span data-lang-block="es">Cultura general de RRHH</span></h5><span><span data-lang-block="fr">Boost your Soft Skills</span><span data-lang-block="en">Boost your Soft Skills</span><span data-lang-block="es">Boost your Soft Skills</span></span></div>
+            <div class="cert-card training"><span class="cert-kind"><span data-lang-block="fr">Formation</span><span data-lang-block="en">Training</span><span data-lang-block="es">Formación</span></span><h5>Agile Project Management</h5><span><span data-lang-block="fr">Méthodologie Scrum</span><span data-lang-block="en">Scrum delivery methodology</span><span data-lang-block="es">Metodología Scrum</span></span></div>
+            <div class="cert-card training"><span class="cert-kind"><span data-lang-block="fr">Formation</span><span data-lang-block="en">Training</span><span data-lang-block="es">Formación</span></span><h5>GDPR / RGPD</h5><span><span data-lang-block="fr">Protection des données</span><span data-lang-block="en">Data protection</span><span data-lang-block="es">Protección de datos</span></span></div>
+            <div class="cert-card training"><span class="cert-kind"><span data-lang-block="fr">Formation</span><span data-lang-block="en">Training</span><span data-lang-block="es">Formación</span></span><h5>R for Finance</h5><span><span data-lang-block="fr">Programmation, HTML, Python</span><span data-lang-block="en">Programming, HTML, Python</span><span data-lang-block="es">Programación, HTML, Python</span></span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Centres d'intérêt -->
+<section class="bg-light">
+    <div class="section-inner">
+        <div class="section-header reveal">
+            <div class="section-label"><span data-lang-block="fr">Passions</span><span data-lang-block="en">Interests</span><span data-lang-block="es">Intereses</span></div>
+            <h2 class="section-title"><span data-lang-block="fr">Ce qui me fait</span><span data-lang-block="en">What drives</span><span data-lang-block="es">Lo que me</span> <strong><span data-lang-block="fr">avancer</span><span data-lang-block="en">me</span><span data-lang-block="es">motiva</span></strong></h2>
+        </div>
+        <div class="interest-grid reveal">
+            <div class="interest-card"><div class="icon">📷</div><h5><span data-lang-block="fr">Photographie</span><span data-lang-block="en">Photography</span><span data-lang-block="es">Fotografía</span></h5><span><span data-lang-block="fr">Storytelling visuel</span><span data-lang-block="en">Visual storytelling</span><span data-lang-block="es">Storytelling visual</span></span></div>
+            <div class="interest-card"><div class="icon">🚴</div><h5><span data-lang-block="fr">Sport</span><span data-lang-block="en">Sports</span><span data-lang-block="es">Deporte</span></h5><span><span data-lang-block="fr">Cyclisme &amp; fitness</span><span data-lang-block="en">Cycling &amp; fitness</span><span data-lang-block="es">Ciclismo y fitness</span></span></div>
+            <div class="interest-card"><div class="icon">🏔️</div><h5><span data-lang-block="fr">Nature</span><span data-lang-block="en">Nature</span><span data-lang-block="es">Naturaleza</span></h5><span><span data-lang-block="fr">Vie alpine &amp; outdoor</span><span data-lang-block="en">Alpine &amp; outdoor life</span><span data-lang-block="es">Vida alpina y outdoor</span></span></div>
+            <div class="interest-card"><div class="icon">🐎</div><h5><span data-lang-block="fr">Équestre</span><span data-lang-block="en">Equestrian</span><span data-lang-block="es">Ecuestre</span></h5><span><span data-lang-block="fr">Équitation</span><span data-lang-block="en">Horse riding</span><span data-lang-block="es">Equitación</span></span></div>
+            <div class="interest-card"><div class="icon">🏠</div><h5><span data-lang-block="fr">Immobilier</span><span data-lang-block="en">Real Estate</span><span data-lang-block="es">Inmobiliario</span></h5><span><span data-lang-block="fr">Marchés &amp; investissement</span><span data-lang-block="en">Markets &amp; investment</span><span data-lang-block="es">Mercados e inversión</span></span></div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-content reveal">
+        <h2>
+            <span><span data-lang-block="fr">Envie d'échanger</span><span data-lang-block="en">Want to talk</span><span data-lang-block="es">¿Quieres hablar</span></span>
+            <span><span data-lang-block="fr">avec moi ?</span><span data-lang-block="en">with me?</span><span data-lang-block="es">conmigo?</span></span>
+        </h2>
+        <p class="lead">
+            <span data-lang-block="fr">Une opportunité, une collaboration ou simplement une question : je réponds volontiers.</span>
+            <span data-lang-block="en">An opportunity, a collaboration, or simply a question — I'm happy to hear from you.</span>
+            <span data-lang-block="es">Una oportunidad, una colaboración o simplemente una pregunta: respondo con gusto.</span>
+        </p>
+        <div class="contact-details">
+            <div>
+                <div class="k"><span data-lang-block="fr">Téléphone</span><span data-lang-block="en">Phone</span><span data-lang-block="es">Teléfono</span></div>
+                <div class="v"><a href="tel:+33788588354">+33 7 88 58 83 54</a></div>
+            </div>
+            <div>
+                <div class="k">Email</div>
+                <div class="v"><a href="mailto:fabien.gentil@kedgebs.com">fabien.gentil@kedgebs.com</a></div>
+            </div>
+            <div>
+                <div class="k"><span data-lang-block="fr">Mobilité</span><span data-lang-block="en">Mobility</span><span data-lang-block="es">Movilidad</span></div>
+                <div class="v"><span data-lang-block="fr">Internationale</span><span data-lang-block="en">International</span><span data-lang-block="es">Internacional</span></div>
+            </div>
+        </div>
+        <div class="contact-actions">
+            <a href="mailto:fabien.gentil@kedgebs.com" class="btn-primary"><span data-lang-block="fr">Envoyer un email</span><span data-lang-block="en">Send an email</span><span data-lang-block="es">Enviar un email</span></a>
+            <a href="https://www.linkedin.com/in/fabien-gentil-8391bb1a8/" target="_blank" rel="noopener" class="btn-primary btn-outlined">LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">F<span>-Gl</span></a>
+            <p>
+                <span data-lang-block="fr">Profil, digital, immobilier et gestion de projets — sous une seule signature.</span>
+                <span data-lang-block="en">Profile, digital, real estate and project management — under one signature.</span>
+                <span data-lang-block="es">Perfil, digital, inmobiliario y gestión de proyectos — bajo una sola firma.</span>
+            </p>
+        </div>
+        <div class="footer-col">
+            <h6><span data-lang-block="fr">Navigation</span><span data-lang-block="en">Navigation</span><span data-lang-block="es">Navegación</span></h6>
+            <ul>
+                <li><a href="index.html"><span data-lang-block="fr">Accueil</span><span data-lang-block="en">Home</span><span data-lang-block="es">Inicio</span></a></li>
+                <li><a href="profil.html"><span data-lang-block="fr">Profil – CV</span><span data-lang-block="en">Profile – CV</span><span data-lang-block="es">Perfil – CV</span></a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h6><span data-lang-block="fr">Expertises</span><span data-lang-block="en">Expertise</span><span data-lang-block="es">Áreas</span></h6>
+            <ul>
+                <li><a href="digital.html">F-Gl Digital</a></li>
+                <li><a href="estate.html">F-Gl Estate</a></li>
+                <li><a href="project-management.html">F-Gl Project Management</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h6>Contact</h6>
+            <ul>
+                <li><a href="tel:+33788588354">+33 7 88 58 83 54</a></li>
+                <li><a href="mailto:fabien.gentil@kedgebs.com">fabien.gentil@kedgebs.com</a></li>
+                <li><a href="https://www.linkedin.com/in/fabien-gentil-8391bb1a8/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>
+            <span data-lang-block="fr">© 2026 F-Gl — Fabien Gentil. Tous droits réservés.</span>
+            <span data-lang-block="en">© 2026 F-Gl — Fabien Gentil. All rights reserved.</span>
+            <span data-lang-block="es">© 2026 F-Gl — Fabien Gentil. Todos los derechos reservados.</span>
+        </span>
+        <span>
+            <span data-lang-block="fr">Conçu &amp; développé par F-Gl Digital</span>
+            <span data-lang-block="en">Designed &amp; built by F-Gl Digital</span>
+            <span data-lang-block="es">Diseñado y desarrollado por F-Gl Digital</span>
+        </span>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

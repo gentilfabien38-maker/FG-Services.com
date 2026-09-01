@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr"
+      data-title-fr="Blog — Articles | F-Gl"
+      data-title-en="Blog — Articles | F-Gl"
+      data-title-es="Blog — Artículos | F-Gl">
+<head>
+<meta charset="UTF-8">
+<script>
+(function(){
+  try {
+    var saved = localStorage.getItem('fgl-lang');
+    var lang = (saved === 'en' || saved === 'es' || saved === 'fr') ? saved : 'fr';
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Articles et réflexions de Fabien Gentil sur le digital, l'immobilier et la gestion de projets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <a href="index.html" class="logo">F<span>-Gl</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html"><span data-lang-block="fr">Accueil</span><span data-lang-block="en">Home</span><span data-lang-block="es">Inicio</span></a></li>
+        <li><a href="profil.html"><span data-lang-block="fr">Profil – CV</span><span data-lang-block="en">Profile – CV</span><span data-lang-block="es">Perfil – CV</span></a></li>
+        <li><a href="digital.html">F-Gl Digital</a></li>
+        <li><a href="estate.html">F-Gl Estate</a></li>
+        <li><a href="project-management.html">F-Gl Project Management</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li class="language-selector">
+            <button class="lang-btn" data-lang="fr">FR</button><span class="lang-separator">|</span>
+            <button class="lang-btn" data-lang="en">EN</button><span class="lang-separator">|</span>
+            <button class="lang-btn" data-lang="es">ES</button>
+        </li>
+    </ul>
+</nav>
+
+<header class="page-hero">
+    <div class="page-hero-inner reveal">
+        <div class="brand-badge"><span data-lang-block="fr">Blog</span><span data-lang-block="en">Blog</span><span data-lang-block="es">Blog</span></div>
+        <h1>
+            <span data-lang-block="fr">Articles</span><span data-lang-block="en">Articles</span><span data-lang-block="es">Artículos</span>
+            <strong><span data-lang-block="fr">&amp; réflexions</span><span data-lang-block="en">&amp; reflections</span><span data-lang-block="es">y reflexiones</span></strong>
+        </h1>
+        <p data-lang-block="fr">Retours d'expérience sur le digital, l'immobilier et la gestion de projets — publiés au fil de mes missions.</p>
+        <p data-lang-block="en">Insights from the field on digital, real estate and project management — published as my work progresses.</p>
+        <p data-lang-block="es">Aprendizajes del terreno sobre lo digital, lo inmobiliario y la gestión de proyectos — publicados a medida que avanzan mis misiones.</p>
+    </div>
+</header>
+
+<section>
+    <div class="section-inner">
+        <div class="blog-grid">
+            <article class="blog-card reveal">
+                <div class="thumb">F-Gl Digital</div>
+                <div class="content">
+                    <span class="meta"><span data-lang-block="fr">Digital</span><span data-lang-block="en">Digital</span><span data-lang-block="es">Digital</span></span>
+                    <h3><span data-lang-block="fr">Site vitrine ou plateforme : comment choisir ?</span><span data-lang-block="en">Showcase site or platform: how to choose?</span><span data-lang-block="es">Sitio vitrina o plataforma: ¿cómo elegir?</span></h3>
+                    <p><span data-lang-block="fr">Avant de penser design, il faut clarifier l'objectif du site. Voici les questions à se poser avant de lancer un projet web.</span><span data-lang-block="en">Before thinking about design, you need to clarify the site's goal. Here are the questions to ask before launching a web project.</span><span data-lang-block="es">Antes de pensar en el diseño, hay que aclarar el objetivo del sitio. Estas son las preguntas que hacerse antes de lanzar un proyecto web.</span></p>
+                    <span class="read"><span data-lang-block="fr">Bientôt disponible</span><span data-lang-block="en">Coming soon</span><span data-lang-block="es">Próximamente</span></span>
+                </div>
+            </article>
+
+            <article class="blog-card reveal">
+                <div class="thumb">F-Gl Estate</div>
+                <div class="content">
+                    <span class="meta"><span data-lang-block="fr">Immobilier</span><span data-lang-block="en">Real estate</span><span data-lang-block="es">Inmobiliario</span></span>
+                    <h3><span data-lang-block="fr">3 leviers pour valoriser un bien avant sa mise en location</span><span data-lang-block="en">3 levers to enhance a property before renting it out</span><span data-lang-block="es">3 palancas para valorizar un inmueble antes de alquilarlo</span></h3>
+                    <p><span data-lang-block="fr">Photos, présentation, positionnement tarifaire : de petits ajustements qui changent beaucoup à la mise en location.</span><span data-lang-block="en">Photos, presentation, pricing: small adjustments that make a big difference when renting out a property.</span><span data-lang-block="es">Fotos, presentación, posicionamiento de precio: pequeños ajustes que cambian mucho al poner un inmueble en alquiler.</span></p>
+                    <span class="read"><span data-lang-block="fr">Bientôt disponible</span><span data-lang-block="en">Coming soon</span><span data-lang-block="es">Próximamente</span></span>
+                </div>
+            </article>
+
+            <article class="blog-card reveal">
+                <div class="thumb">F-Gl Project Management</div>
+                <div class="content">
+                    <span class="meta"><span data-lang-block="fr">Gestion de projets</span><span data-lang-block="en">Project management</span><span data-lang-block="es">Gestión de proyectos</span></span>
+                    <h3><span data-lang-block="fr">Pourquoi un comité de pilotage hebdomadaire change tout</span><span data-lang-block="en">Why a weekly steering committee changes everything</span><span data-lang-block="es">Por qué un comité de dirección semanal lo cambia todo</span></h3>
+                    <p><span data-lang-block="fr">Un rituel court et régulier vaut souvent mieux qu'un reporting mensuel détaillé. Retour d'expérience terrain.</span><span data-lang-block="en">A short, regular ritual is often worth more than a detailed monthly report. Lessons from the field.</span><span data-lang-block="es">Un ritual corto y regular suele valer más que un informe mensual detallado. Aprendizajes del terreno.</span></p>
+                    <span class="read"><span data-lang-block="fr">Bientôt disponible</span><span data-lang-block="en">Coming soon</span><span data-lang-block="es">Próximamente</span></span>
+                </div>
+            </article>
+        </div>
+
+        <div class="blog-note reveal">
+            <span data-lang-block="fr">D'autres articles arrivent bientôt. Suivez mon actualité sur LinkedIn en attendant.</span>
+            <span data-lang-block="en">More articles are coming soon. Follow my updates on LinkedIn in the meantime.</span>
+            <span data-lang-block="es">Pronto llegarán más artículos. Sigue mis novedades en LinkedIn mientras tanto.</span>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-content reveal">
+        <h2>
+            <span><span data-lang-block="fr">Une idée d'article,</span><span data-lang-block="en">An article idea,</span><span data-lang-block="es">¿Una idea de artículo,</span></span>
+            <span><span data-lang-block="fr">un projet ?</span><span data-lang-block="en">a project?</span><span data-lang-block="es">un proyecto?</span></span>
+        </h2>
+        <p class="lead"><span data-lang-block="fr">N'hésitez pas à me contacter.</span><span data-lang-block="en">Feel free to reach out.</span><span data-lang-block="es">No dudes en contactarme.</span></p>
+        <div class="contact-actions">
+            <a href="mailto:fabien.gentil@kedgebs.com" class="btn-primary"><span data-lang-block="fr">Envoyer un email</span><span data-lang-block="en">Send an email</span><span data-lang-block="es">Enviar un email</span></a>
+            <a href="profil.html" class="btn-primary btn-outlined"><span data-lang-block="fr">Voir mon profil</span><span data-lang-block="en">View my profile</span><span data-lang-block="es">Ver mi perfil</span></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">F<span>-Gl</span></a>
+            <p>
+                <span data-lang-block="fr">Profil, digital, immobilier et gestion de projets — sous une seule signature.</span>
+                <span data-lang-block="en">Profile, digital, real estate and project management — under one signature.</span>
+                <span data-lang-block="es">Perfil, digital, inmobiliario y gestión de proyectos — bajo una sola firma.</span>
+            </p>
+        </div>
+        <div class="footer-col">
+            <h6><span data-lang-block="fr">Navigation</span><span data-lang-block="en">Navigation</span><span data-lang-block="es">Navegación</span></h6>
+            <ul>
+                <li><a href="index.html"><span data-lang-block="fr">Accueil</span><span data-lang-block="en">Home</span><span data-lang-block="es">Inicio</span></a></li>
+                <li><a href="profil.html"><span data-lang-block="fr">Profil – CV</span><span data-lang-block="en">Profile – CV</span><span data-lang-block="es">Perfil – CV</span></a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h6><span data-lang-block="fr">Expertises</span><span data-lang-block="en">Expertise</span><span data-lang-block="es">Áreas</span></h6>
+            <ul>
+                <li><a href="digital.html">F-Gl Digital</a></li>
+                <li><a href="estate.html">F-Gl Estate</a></li>
+                <li><a href="project-management.html">F-Gl Project Management</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h6>Contact</h6>
+            <ul>
+                <li><a href="tel:+33788588354">+33 7 88 58 83 54</a></li>
+                <li><a href="mailto:fabien.gentil@kedgebs.com">fabien.gentil@kedgebs.com</a></li>
+                <li><a href="https://www.linkedin.com/in/fabien-gentil-8391bb1a8/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>
+            <span data-lang-block="fr">© 2026 F-Gl — Fabien Gentil. Tous droits réservés.</span>
+            <span data-lang-block="en">© 2026 F-Gl — Fabien Gentil. All rights reserved.</span>
+            <span data-lang-block="es">© 2026 F-Gl — Fabien Gentil. Todos los derechos reservados.</span>
+        </span>
+        <span>
+            <span data-lang-block="fr">Conçu &amp; développé par F-Gl Digital</span>
+            <span data-lang-block="en">Designed &amp; built by F-Gl Digital</span>
+            <span data-lang-block="es">Diseñado y desarrollado por F-Gl Digital</span>
+        </span>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
